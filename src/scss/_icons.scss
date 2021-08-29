@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?24074047');
+  src: url('../font/fontello.eot?24074047#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?24074047') format('woff2'),
+       url('../font/fontello.woff?24074047') format('woff'),
+       url('../font/fontello.ttf?24074047') format('truetype'),
+       url('../font/fontello.svg?24074047#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a[class^="icon-"]{
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+[class^="icon-"]:before, [class*="icon-"]:before {
+  font-family: "fontello";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal;
+  min-width: 1.7rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-cog:before { content: '\e800'; } /* '' */
+.icon-star:before { content: '\e801'; } /* '' */
+.icon-heart:before { content: '\e802'; } /* '' */
+.icon-facebook:before { content: '\e803'; } /* '' */
+.icon-bell:before { content: '\e804'; } /* '' */
+.icon-instagram:before { content: '\e805'; } /* '' */
+.icon-pinterest:before { content: '\e806'; } /* '' */
+.icon-twitter:before { content: '\e807'; } /* '' */
+.icon-paypal:before { content: '\e808'; } /* '' */
+.icon-wallet:before { content: '\e809'; } /* '' */
+.icon-email:before { content: '\e80a'; } /* '' */
+.icon-mobile:before { content: '\e80b'; } /* '' */
+.icon-gluten-free:before { content: '\e80c'; } /* '' */
+.icon-vegan:before { content: '\e80d'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-cc-visa:before { content: '\f1f0'; } /* '' */
+.icon-cc-mastercard:before { content: '\f1f1'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-shopping-basket:before { content: '\f291'; } /* '' */
+.list-social, .list-payment{
+  margin: 1rem 0 2rem 0;
+  padding: 0;
+  list-style-type: none;  
+  [class^="icon-"]{
+    font-size: 0;
+    text-decoration: none;
+  }
+}
+.list-social{
+  li{
+    line-height: 0;
+    margin: 0.25rem 0.75rem
+  }
+  [class^="icon-"]:hover{
+    text-decoration: none;
+  }
+  [class^="icon-"]:before{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+}
+.list-payment{
+  margin-left: -1rem;
+  align-items: center;
+  li{
+    line-height: 0;
+    margin: 0 0.5rem;
+  }
+  [class^="icon-"]{
+    &:before{
+      font-size: 2rem;
+      opacity: 0.7;
+      transition: opacity 0.5s
+    }
+    &:hover:before{
+      opacity: 1;
+    }
+  }
+}
+
+.nav-link[class*="icon-"]:before{
+  font-size: 1.2rem;
+}  
+
+h2{
+  [class^="icon-"]:before{
+    font-size: 1.2em
+  }
+}
+
+.checklist{
+  i {font-size: 1.4em;}
+  .yes{color: $green}
+  .no{color: $red}
+}

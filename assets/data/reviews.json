@@ -1,0 +1,18 @@
+[
+
+	{
+		"cupcakeid": 98,
+		"rating": 5,
+        "userid": -1,
+        "date": 1625176800000,    
+		"comments": "<p>The red velvet cupcakes were to die for! Thank-you Daily Cupcakes for saving us from a dreary day at the office - your prompt delivery made our day.</p>"
+	},
+	{
+		"cupcakeid": 99,
+		"rating": 4,
+        "userid": -1,
+        "date": 1625608800000,    
+		"comments": "<p>These were such a treat with our American family in town. The genuine American-style candy toppings finished them off perfectly.</p>"
+	}
+
+]

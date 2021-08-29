@@ -1,0 +1,177 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The Daily Cupcake</title>
+    <meta name="description" content="A concept site by Katherine Steel as part of her HyperionDev certification">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/app.css?v=9">
+  </head>
+  <body>
+    <header>
+      <button class="btn d-lg-none" data-toggle="primary">
+        <img alt="menu [icon]" data-inline-svg src="assets/img/icon-menu.svg" />
+      </button>
+      <h1 class="logo">
+        <a href="index.html">
+          <img data-inline-svg src="assets/img/logo.svg" alt="The daily cupcake" />
+        </a>
+      </h1>
+    </header>
+    <nav id="primary" class="navbar navbar-expand-lg">
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="order.html" class="nav-link">Get today's cupcake</a></li>          
+          <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>             
+          <li class="nav-item"><a href="contacts.html" class="nav-link">Contact us</a></li>
+          <li class="nav-item"><a href="alerts.html" title="Your Cupcake alerts" class="nav-link icon-bell">Alerts <span data-alerts-count class="badge badge-info">0</span></a></li>
+          <li class="nav-item"><a href="cart.html" class="nav-link icon-shopping-basket">Cart <span data-cart-count class="badge badge-info">0</span></a></li>       
+        </ul>
+      </div>
+    </nav>
+    <main role="main">
+      <section class="hero" id="dailyCupcake">
+
+      </section>  
+      <section>
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col col-lg-10">
+              <h2>So, how does this work you're asking?</h2>
+              <p><strong>Who doesn't love a good cupcake, right?</strong> All of the pleasure with none of the heavy commitment attached to a full-sized cake. 
+              We prepare but a single batch of cupcakes per day, from the freshest ingredients and delivered the same day they are made.</p><p>With the Daily Cupcake, every day has a touch of magic!</p>
+              <a class="btn btn-primary" href="about.html">More about us</a> 
+            </div>
+          </div>
+        </div>
+      </section>          
+      <section class="pink just-sold-out">
+        <div class="container">
+          <div class="row d-flex justify-content-center  text-center">
+            <div class="col col-lg-10">
+              <h2>This week's creations</h2>
+              <p>They sold out like hotcakes &#8211; these are our cupcake creations from the last week.</p> 
+            </div>
+          </div>
+          <ul id="soldOut" class="row flex-row d-flex list-unstyled row-cols-2 row-cols-md-4 justify-content-center text-center gx-4">
+             
+          </ul>  
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12">
+              <h2>What our customers are saying</h2>
+              <div id="reviews" data-reviews-count="3" class="flex-row flex-wrap d-flex list-unstyled row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center text-center row gx-md-4 gx-lg-5">
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <section class="cream hall-of-fame"><div class="container text-center">
+        <h2>Hall of fame</h2>
+        <p>These are our most popular cupcakes, we are likely to repeat them, so do sign up for 'cupcake alerts' to get a 24 hour heads-up on the next batch, which includes a secret link to preorder and get your favourite cupcakes in time for breakfast!</p>    
+        <ul id="hallFame" class="row flex-row d-flex list-unstyled row-cols-sm-2 row-cols-md-3 row-cols-lg-6 justify-content-center text-center gx-4">
+                                                            
+          </ul>
+        </div>
+      </section>
+    </main>
+
+
+<!-- offcanvas form  --> 
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="reviewCanvas" aria-labelledby="reviewCanvasLabel">
+      <div class="offcanvas-header"><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <h3 id="reviewCanvasLabel">Review &#8211; <span class="cupcakeReviewTitle">{cupcake title}</span></h3>
+        
+      </div>
+      <div class="offcanvas-body">
+        <p class="lead">Tell us what you thought of this cupcake</p>
+        <form id="formReview" class="requires-validation" novalidate action="index.html" method="post">  
+          <input type="hidden" name="cupcakeid" value="" />
+          <div class="form-group">
+          <h4>Rating</h4>
+          <fieldset class="rating d-flex d-inline-flex flex-row-reverse align-items-start justify-content-start"> 
+            <input type="radio" id="star5" name="rating" value="5" required />
+            <label class="full" for="star5" title="Awesome - 5 stars"></label>
+            <input type="radio" id="star4" name="rating" value="4" required />
+            <label class="full" for="star4" title="Pretty good - 4 stars"></label>
+            <input type="radio" id="star3" name="rating" value="3" required />
+            <label class="full" for="star3" title="Meh - 3 stars"></label>
+            <input type="radio" id="star2" name="rating" value="2" required />
+            <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+            <input type="radio" id="star1" name="rating" value="1" required />
+            <label class="full" for="star1" title="Sucks big time - 1 star"></label>
+            <div class="invalid-feedback">
+              Please give this cupcake a star-rating
+            </div>
+            <input type="radio" class="reset-option" name="rating" value="reset" /> 
+          </fieldset>
+          </div>  
+          <div class="form-group">
+            <label class="h4" or="reviewComments">Comments</label>
+            <textarea class="form-control" name="comments" id="reviewComments" rows="3" required></textarea>
+          </div>
+          
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="d-flex flex-row flex-wrap">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h1 class="logo"><a href="index.html"><img data-inline-svg src="assets/img/logo.svg" alt="The Daily Cupcake" /></a></h1>
+            <h4>Payment options</h4>
+            <ul class="d-flex list-payment justify-content-center justify-content-lg-start">
+              <li><span class="icon-paypal" data-toggle="tooltip" data-placement="top" title="Paypal">Paypal</span></li>
+              <li><span class="icon-cc-visa" data-toggle="tooltip" data-placement="top" title="Visa">Visa</span></li>
+              <li><span class="icon-cc-mastercard" data-toggle="tooltip" data-placement="top" title="Mastercard">Mastercard</span></li>
+              <li><span class="icon-wallet" data-toggle="tooltip" data-placement="top" title="Cash on Delivery">Cash on Delivery</span></li>
+            </ul> 
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 text-center ">  
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="order.html" class="nav-link">Get the Daily Cupcake</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>   
+              <li class="nav-item"><a href="sign-up.html" class="nav-link">Sign in / Sign up</a></li>   
+              <li class="nav-item"><a href="contacts.html" class="nav-link">Contact us</a></li>      
+            </ul>   
+            <ul class="d-flex list-social justify-content-center">
+              <li><a class="icon-facebook" target="_blank" href="https://www.facebook.com/thedailycupcake">Facebook</a></li>
+              <li><a class="icon-instagram" target="_blank" href="https://www.instagram.com/thedailycupcake">Instagram</a></li>
+              <li><a class="icon-twitter" target="_blank" href="https://www.twitter.com/thedailycupcake">Twitter</a></li>
+              <li><a class="icon-pinterest" target="_blank" href="https://www.pinterest.com/thedailycupcake">Pinterest</a></li>
+              <li><a class="icon-youtube" target="_blank" href="https://www.youtube.com/thedailycupcake">Youtube</a></li> 
+              <li><a class="icon-whatsapp" target="_blank" href="https://web.whatsapp.com/send?text=Please%20may%20I%20place%20I%20an%20order??utm_source=whatsapp&utm_medium=cpc&utm_campaign=socialmedia">Whatsapp chat</a></li>
+            </ul>                  
+          </div>
+          <div class="col-12 col-lg-4 text-lg-left">
+            <h4>Bespoke orders</h4>
+            <p>Once you've tasted a Daily Cupcake, you might find yourself imagining  
+              our cake, on a somewhat grander scale, for that special occasion. Feel free to <a href="contacts.html">Get in touch with us</a> to discuss your custom cake requirements.</p>
+          </div>          
+        </div>
+      </div>
+      <div class="legal text-center d-flex flex-wrap justify-content-center">
+        <p>&copy; 2021. The Daily Cupcake. All rights reserved.</p>  
+          <ul class="d-flex list-unstyled">
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="shipping.html">Shipping policy</a></li>
+            <li><a href="payment.html">Payment options</a></li>
+          </ul>
+      </div> 
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-inline-svg.min.js"></script>
+    <script src="assets/js/app.js?v=4"></script>
+    <script src="assets/js/shop.js"></script>
+ 
+  </body>
+</html>

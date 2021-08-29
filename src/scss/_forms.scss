@@ -1,0 +1,97 @@
+form{margin-bottom: 1rem}
+
+.order{
+    label{
+        display: block
+    }
+    input[type="number"]{
+        display: inline-block;
+        max-width: 100px;
+    }    
+}
+.form-group{
+    margin-bottom: 0.9rem;
+    input{
+        margin-bottom: 0.3rem
+    }
+    label{
+        margin-bottom: 0.3rem; 
+        color: $pink;
+    }
+    .form-text{
+        margin-top: -0.5rem;
+        display: inline-block;
+    }
+    .btn{
+        position: relative;
+        margin: -3px 0 0 0.5rem
+    }
+}
+.form-switch{
+    label{
+        color: $pink;
+        font-size: 0.85em;
+        line-height: 1.8em
+    }
+}
+.form-check{
+    padding-left: 0; 
+    .form-check-input{
+        float: none; 
+        margin-left: 0;
+    }
+    label{
+        display: inline-block;
+        color: inherit;
+        margin-right: 1rem;
+    }
+}
+
+//star rating stuff with a little help from https://bbbootstrap.com/snippets/bootstrap-rating-star-inputs-using-jquery-22603699
+.rating {
+    border: none;
+    margin-right: 0px;    
+    label{font-family: Fontello;}
+}
+
+.rating>[id^="star"] {
+    display: none
+}
+
+.rating>label:before {
+    margin: 0 5px;
+    font-size: 2em;
+    line-height: 1.5em;
+    display: inline-block;
+    content: "\e801"
+}
+
+.rating>label {
+    color: $gray-400;
+}
+
+.rating>[id^="star"]:checked~label,
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: $yellow;
+}
+
+.rating>[id^="star"]:checked+label:hover,
+.rating>[id^="star"]:checked~label:hover,
+.rating>label:hover~[id^="star"]:checked~label,
+.rating>[id^="star"]:checked~label:hover~label {
+    color: $yellow-500;
+}
+.reset-option {
+    display: none
+}
+
+.reset-button {
+    margin: 6px 12px;
+    background-color: $white;
+    text-transform: uppercase
+}
+
+[data-qty-for]{
+    text-align: center; width: 100px; float: right;
+}

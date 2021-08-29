@@ -1,0 +1,52 @@
+footer{
+    padding: 2em 0 0 0; 
+    background-color: $primary;
+    color: $white;
+    text-align: center;
+    @include media-breakpoint-up(lg) { 
+        text-align: left;
+    }    
+    h1{
+        position: relative;
+        margin-bottom: 2rem; 
+        margin-top: -2rem;
+    }
+    svg{
+        fill: $white !important;
+        text tspan{
+            fill: $white !important
+        }
+    }
+
+    h4, a, .nav-link{
+        color: $cream;
+    }   
+    li.nav-item{margin: 0;
+        a{display: inline-block}
+    }
+    .nav-link:hover, a:hover{
+        color: lighten($cream, 15%);
+    } 
+    [class^="icon-"]{
+        &:before{color: $white}
+        &:hover:before{color: lighten($cream, 15%)}
+    }    
+    .legal{background: $white; 
+        padding: 0.5rem 0;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: $body-color;
+        p, ul{
+            margin-bottom: 0; 
+        }
+        li{
+            margin: 0 0.5rem;
+        }        
+        a{
+            text-decoration: none; 
+            color: $primary;
+
+            &:hover{text-decoration: underline;}
+        }
+    }
+}

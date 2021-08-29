@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'plicata';
+    src: url('../font/plicata_personal_use_only-webfont.woff2') format('woff2'),
+         url('../font/plicata_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::selection{
+    background-color: darken($primary, 10%);
+    color: $white;
+}
+body, html{
+    font-family: $font-family-sans-serif;
+    color: $gray-800
+}
+hr{margin: 0 auto;  
+    @each $breakpoint, $size in $container-max-widths {
+        @include media-breakpoint-up(#{$breakpoint}) {  
+          max-width: $size;
+        }
+      }      
+}
+h1, h2, h3, h4, h5 .logofont{
+    line-height: 0.8em;
+    margin-bottom: 1rem;
+    color: $primary
+}
+li{
+    margin-bottom: 0.5rem
+}
+.btn+small{color: $primary}
+dl{ 
+    display: flex;
+    flex-flow: row wrap;        
+    font-size: 0.9em;
+    color: $primary;
+    dt{
+        padding-right: 0.5rem;
+        width: 130px;
+    }
+    dd{
+        width: calc(100% - 130px);
+    }
+}
+
+blockquote{    
+    position: relative;
+    border-bottom: 1px dotted $pink;
+    @include media-breakpoint-up(md) {     
+        &:not(:last-child){
+            border-right: 1px dotted $pink;
+        } 
+        border-bottom: none;
+    }    
+    
+    &:not(:last-child):after{
+        left: 50%; bottom: 0%; 
+        transform: translate(-50%, 50%);
+        content: '\e802'; 
+        color: $pink;
+        position: absolute;
+        font-family: "fontello";
+        @include media-breakpoint-up(md) { 
+            left: auto; 
+            bottom: auto; 
+            right: -1px; 
+            top: 50%; 
+            transform: translate(50%, -50%);
+        }    
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    small{
+        display: block; 
+        color: $pink;
+        margin-bottom: 1rem;
+    }
+}
+time{color: $pink}
+

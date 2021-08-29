@@ -1,0 +1,269 @@
+[{
+		"id": 99,
+		"title": "Fourth of July cupcakes",
+		"subtitle": "Happy Independence Day, America",
+		"short_desc": "A sweet red, white and blue happy birthday to you America",
+		"description": "<p>The tradition of celebrating Independence Day in America holds roots in the days following the Continental Congress formally adopting the Declaration of Independence on July 4, 1776.</p><p>A few days later, bands played and bells rang as public readings took place in Philadelphia&#8217;s Independence Square.</p>",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/july4-cupcake-1920x980.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/fourthjuly-cupcake-480w.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/fourthjuly-cupcake-320x320.jpg"
+		},
+		"price": 120,
+		"qty_box": 6,
+		"stock": 21,
+		"is_vegan": 0,
+		"hall_fame": 0,
+		"last_baked": "2021/07/04",
+		"ingredients": "Wheat flour,Sugar,Vegetable oil,Vanilla extract,Natural food colouring,Raising agents,Dairy cream (frosting),Dairy butter (frosting)",
+		"allergens": {"Gluten": 1, "Eggs": 1, "Lactose": 1, "Tree Nuts": 0, "Soy": 0},
+		"avg_rating": 3.8
+	},
+	{
+		"id": 98,
+		"title": "Classic red velvet",
+		"subtitle": "An old time favourite, perfectly presented",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/07/03",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.7
+	},
+	{
+		"id": 97,
+		"title": "Vegan butterflies",
+		"subtitle": "100% plant-based, with a coconut cream frosting",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/07/02",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.4
+	},
+	{
+		"id": 95,
+		"title": "Sprinkle caramel pops",
+		"subtitle": "Encrusted in naturally coloured sprinkles, a big favourite with the kids.",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/30",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.1
+	},
+	{
+		"id": 94,
+		"title": "Chocolate eclair bites",
+		"subtitle": "Love at first bite, nutty, chocolatey, heaven-sent in a box of 10",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/29",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.5
+	},
+	{
+		"id": 93,
+		"title": "Berrilicious cream",
+		"subtitle": "Flourless Dark chocolate cake, with a creamy berry frosting",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/28",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.6
+	},
+	{
+		"id": 91,
+		"title": "Death by chocolate",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/26",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 4.1
+	},
+	{
+		"id": 90,
+		"title": "Rainbow meringue tops",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/25",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.6
+	},
+	{
+		"id": 89,
+		"title": "Pomegranate ice",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/24",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.9
+	},
+	{
+		"id": 88,
+		"title": "Spicy carrot",
+		"subtitle": "With plenty cinnamon and a cream-cheese frosting",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/23",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.7
+	},
+	{
+		"id": 87,
+		"title": "Spooky Pumpkin",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/22",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.5
+	},
+	{
+		"id": 86,
+		"title": "Royal queens",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/21",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.3
+	},
+	{
+		"id": 85,
+		"title": "Ariel&#8217;s dream",
+		"subtitle": "",
+		"short_desc": "",
+		"description": "",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg"
+		},
+		"price": "",
+		"qty_box": "",
+		"hall_fame": 1,
+		"last_baked": "2021/06/20",
+		"ingredients": "",
+		"allergens": "",
+		"avg_rating": 3.1
+	},
+	{
+		"id": 84,
+		"title": "Rainbow Prides",
+		"subtitle": "June is pride month!",
+		"short_desc": "Share these super cute and colourful (did we forget to mention super tasty) rainbow cupcakes with all your friends in the LGTBQ community today.",
+		"description": "It&#8217;s a great time to recognize the contributions of your LGBT+ peers, learn a little bit more about LGBT+ history, celebrate diversity, and consider the ways that you can contribute to creating a more inclusive society.\n\nGet these super cute and colourful (did we forget to mention super tasty) rainbow cupcakes to share with all your friends in the LGTBQ community today.",
+		"img_url": {
+			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
+			"large": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
+			"small": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg"
+		},
+		"price": 100,
+		"qty_box": 6,
+		"hall_fame": 0,
+		"last_baked": "2021/06/19",
+		"ingredients": "Wheat flour,Sugar,Vegetable oil,Vanilla extract,Natural food colouring,Raising agents,Dairy cream (frosting),Dairy butter (frosting)",
+		"allergens": "Gluten: 1, Eggs: 1, Lactose: 1, Tree Nuts: 0,Soy: 0",
+		"avg_rating": 3
+	}
+]

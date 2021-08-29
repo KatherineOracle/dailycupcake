@@ -1,0 +1,138 @@
+.nav-cupcake-tools{
+    margin: 0 -0.5rem; padding: 0;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 0em; 
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+    li{
+        padding: 0 0.5rem;
+    }
+    a{color: $gray-500; text-decoration: none; cursor: pointer;
+        &:before, &:after{font-size: 1rem}
+        &:hover{color: tint-color($primary, 20%);}
+        &.active{color: $primary}
+    }    
+}
+a[data]{cursor: pointer;}
+
+.order, .hero{
+    .nav-cupcake-tools{margin-top: 1.5em; justify-content: left; font-size: 1rem;
+        a{color: $gray-600; 
+            &.active{color: $primary}
+        }     
+    }
+}
+
+#primary{
+    transform: translateY(-100%);
+    padding-bottom: 0;
+    transition: transform 1s;
+    width: 100%; overflow: hidden;
+    z-index: 88;
+    position: absolute; 
+    background-color: $primary;
+    color: $white;
+    a{color: $white; 
+        &:hover{
+            background-color: $cream;
+            color: $pink
+        }
+    }
+    .container{
+        justify-content: center;
+    }
+    .navbar-nav{
+        padding-top: 140px;
+        padding-bottom: 2rem;
+        text-align: center;
+
+        .nav-link{
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }    
+    @include media-breakpoint-up(md) {
+        .container{justify-content: flex-end;}
+        .navbar-nav{
+            padding-top: 50px;
+            text-align: right;
+        }    
+        .nav-item{margin-bottom: 0}
+    }    
+    @include media-breakpoint-up(lg) {
+        padding-top: 0px;
+        overflow: visible;
+        transform: translateY(0);
+        .navbar-nav{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            justify-content: flex-end;            
+        }
+        .nav-item.active{
+            position: relative;
+            a{
+                background-color: $cream;
+                color: $pink;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                left: 50%; 
+                bottom: 0; 
+                transform: translate(-50%, 100%);
+                border-style: solid;
+                border-width: 20px 18px 0 0;
+                border-color: $cream transparent transparent; 
+            }
+        }        
+    }
+    .badge{background-color: $cream; 
+        display: inline-block; 
+        font-weight: 400; 
+        font-size: 0.7rem; 
+        line-height: 17px;
+        color: $pink; 
+        width: 17px; 
+        height: 17px; 
+        padding: 0; 
+        border-radius: 50%;
+        position: relative;
+        top: -5px;
+    } 
+    a:hover .badge{
+        color: $cream;
+        background-color: $pink;  
+    }
+}
+[data-toggle="primary"]{
+    padding: 0.75rem;
+    transform: rotate(0deg);
+    transition: transform 0.75s;
+    svg{
+        fill: $primary;
+    }    
+    @include media-breakpoint-up(md) {
+        padding: 0.5rem 0.75rem;
+        svg{
+            fill: $white;
+        }
+    }    
+}
+.menu-active{
+    [data-toggle="primary"]{
+        transform: rotate(90deg); 
+        svg{
+            fill: $cream;
+        }         
+    }
+    #primary{
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
