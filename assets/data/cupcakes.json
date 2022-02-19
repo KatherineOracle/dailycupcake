@@ -5,9 +5,9 @@
 		"short_desc": "A sweet red, white and blue happy birthday to you America",
 		"description": "<p>The tradition of celebrating Independence Day in America holds roots in the days following the Continental Congress formally adopting the Declaration of Independence on July 4, 1776.</p><p>A few days later, bands played and bells rang as public readings took place in Philadelphia&#8217;s Independence Square.</p>",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/july4-cupcake-1920x980.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/fourthjuly-cupcake-480w.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/fourthjuly-cupcake-320x320.jpg"
+			"banner": "/assets/img/july4-cupcake-1920x980.jpg",
+			"large": "/assets/img/fourthjuly-cupcake-480w.jpg",
+			"small": "/assets/img/fourthjuly-cupcake-320x320.jpg"
 		},
 		"price": 120,
 		"qty_box": 6,
@@ -26,9 +26,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/redvelvet-cupcake-320x320.jpg"
+			"banner": "/assets/img/redvelvet-cupcake-320x320.jpg",
+			"large": "/assets/img/redvelvet-cupcake-320x320.jpg",
+			"small": "/assets/img/redvelvet-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -45,9 +45,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/butterfly-cupcake-320x320.jpg"
+			"banner": "/assets/img/butterfly-cupcake-320x320.jpg",
+			"large": "/assets/img/butterfly-cupcake-320x320.jpg",
+			"small": "/assets/img/butterfly-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -64,9 +64,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/sprinklepops-cupcake-320x320.jpg"
+			"banner": "/assets/img/sprinklepops-cupcake-320x320.jpg",
+			"large": "/assets/img/sprinklepops-cupcake-320x320.jpg",
+			"small": "/assets/img/sprinklepops-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -83,9 +83,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/mini-eclairs-320x320.jpg"
+			"banner": "/assets/img/mini-eclairs-320x320.jpg",
+			"large": "/assets/img/mini-eclairs-320x320.jpg",
+			"small": "/assets/img/mini-eclairs-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -102,9 +102,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/berrilicious-cupcake-320x320.jpg"
+			"banner": "/assets/img/berrilicious-cupcake-320x320.jpg",
+			"large": "/assets/img/berrilicious-cupcake-320x320.jpg",
+			"small": "/assets/img/berrilicious-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -121,9 +121,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/chocolatedeath-cupcake-320x320.jpg"
+			"banner": "/assets/img/chocolatedeath-cupcake-320x320.jpg",
+			"large": "/assets/img/chocolatedeath-cupcake-320x320.jpg",
+			"small": "/assets/img/chocolatedeath-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -140,9 +140,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/rainbow-meringue-cakes-320x320.jpg"
+			"banner": "/assets/img/rainbow-meringue-cakes-320x320.jpg",
+			"large": "/assets/img/rainbow-meringue-cakes-320x320.jpg",
+			"small": "/assets/img/rainbow-meringue-cakes-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -159,9 +159,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/pomegranate-ice-cupcake-320x320.jpg"
+			"banner": "/assets/img/pomegranate-ice-cupcake-320x320.jpg",
+			"large": "/assets/img/pomegranate-ice-cupcake-320x320.jpg",
+			"small": "/assets/img/pomegranate-ice-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -178,9 +178,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/carrot-cupcake-320x320.jpg"
+			"banner": "/assets/img/carrot-cupcake-320x320.jpg",
+			"large": "/assets/img/carrot-cupcake-320x320.jpg",
+			"small": "/assets/img/carrot-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -197,9 +197,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/spooky-halloween-cupcakes-320x320.jpg"
+			"banner": "/assets/img/spooky-halloween-cupcakes-320x320.jpg",
+			"large": "/assets/img/spooky-halloween-cupcakes-320x320.jpg",
+			"small": "/assets/img/spooky-halloween-cupcakes-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -216,9 +216,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/queen-cupcake-320x320.jpg"
+			"banner": "/assets/img/queen-cupcake-320x320.jpg",
+			"large": "/assets/img/queen-cupcake-320x320.jpg",
+			"small": "/assets/img/queen-cupcake-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -235,9 +235,9 @@
 		"short_desc": "",
 		"description": "",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/ariels-dream-320x320.jpg"
+			"banner": "/assets/img/ariels-dream-320x320.jpg",
+			"large": "/assets/img/ariels-dream-320x320.jpg",
+			"small": "/assets/img/ariels-dream-320x320.jpg"
 		},
 		"price": "",
 		"qty_box": "",
@@ -254,9 +254,9 @@
 		"short_desc": "Share these super cute and colourful (did we forget to mention super tasty) rainbow cupcakes with all your friends in the LGTBQ community today.",
 		"description": "It&#8217;s a great time to recognize the contributions of your LGBT+ peers, learn a little bit more about LGBT+ history, celebrate diversity, and consider the ways that you can contribute to creating a more inclusive society.\n\nGet these super cute and colourful (did we forget to mention super tasty) rainbow cupcakes to share with all your friends in the LGTBQ community today.",
 		"img_url": {
-			"banner": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
-			"large": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
-			"small": "http://localhost/hyperiondev/20/my-site/assets/img/exps188418_MRCM153609D10_30_1b.jpg"
+			"banner": "/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
+			"large": "/assets/img/exps188418_MRCM153609D10_30_1b.jpg",
+			"small": "/assets/img/exps188418_MRCM153609D10_30_1b.jpg"
 		},
 		"price": 100,
 		"qty_box": 6,
